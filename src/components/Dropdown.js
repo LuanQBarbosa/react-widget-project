@@ -42,7 +42,6 @@ const Dropdown = ({ options, selected, onSelectedChange }) => {
                     </div>
                 </div>
             </div>
-            <p style={{color: selected.value, fontWeight: 'bold'}}>This text is {selected.value}!</p>
         </div>
     );
 }
