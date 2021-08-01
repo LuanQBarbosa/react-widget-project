@@ -1,18 +1,20 @@
 import React, { useState } from 'react';
 import Dropdown from './Dropdown';
 
+// AIzaSyCHUCmpR7cT_yDFHC98CZJy2LTms-IwDlM
+
 const options = [
     {
-        label: 'Afrikaans',
-        value: 'af'
+        label: 'Japanese',
+        value: 'ja'
     },
     {
-        label: 'Arabic',
-        value: 'ar'
+        label: 'Portuguese',
+        value: 'pt'
     },
     {
-        label: 'Hindi',
-        value: 'hi'
+        label: 'Spanish',
+        value: 'es'
     }
 ];
 
