@@ -11,7 +11,7 @@ const Convert = ({ language, text }) => {
         }, 750);
 
         return () => clearTimeout(timeoutId);
-    }, [text, language]);
+    }, [text]);
     
     useEffect(() => {
         const doTranslation = async () => {
